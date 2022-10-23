@@ -1,7 +1,7 @@
 # SW중심대학 OCR 경진대회
 
 ## Solution Overview
-overview image
+![overview image](./figures/overview.png)
 
 ## Team member
 정재윤
@@ -23,6 +23,8 @@ https://dacon.io/competitions/official/235970/overview/description
 open.zip을 data_process 폴더 내부에 압축 해제한다.
 
 이후 AI HUB에서 제공하는 야외 실제 촬영 한글 이미지 데이터셋에서 가로형간판1, 가로형간판2, 세로형간판, 돌출간판, 책표지 데이터 전부 및 train 라벨 파일을 다운받고, data_process 폴더 내부에 다음과 같이 이름을 바꾸어 압축해제한다.
+
+https://www.aihub.or.kr/aihubdata/data/list.do?currMenu=115&topMenu=100&searchKeyword=%ED%95%9C%EA%B8%80%20%EC%9D%B4%EB%AF%B8%EC%A7%80
 
 [원천]Training_간판_가로형간판_원천데이터1 -> 가로형간판_원천데이터1
 
@@ -102,7 +104,7 @@ python test.py
 
 deep-text-recognition-benchmark 폴더 내부에 sample_submission.csv를 위치한다. 이후 deep-text-recognition-benchmark 폴더 내부 data 폴더에(train2 등이 위치한 폴더) CRAFT에서 사용한 test 폴더와, result 폴더를 옮긴다.
 
-만약 학습된 TRBA pretrained weight를 사용하고 싶다면, 이미 120000 epoch 학습을 완료한 파일을 사용할 수도 있다.
+만약 학습된 TRBA pretrained weight를 사용하고 싶다면, 이 코드를 사용해서 내가 학습한 120000 epoch 학습을 완료한 파일을 사용할 수도 있다.
 
 > https://drive.google.com/file/d/1T94P6Z-zxGOKciD0L_mJP2QQYJv4UXtm/view
 
