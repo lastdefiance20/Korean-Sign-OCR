@@ -96,7 +96,7 @@ CRAFT-pytorch 폴더 내부에 open.zip에 들어있던 test 폴더를 옮긴다
 python test.py
 ```
 
-이후 글자가 잘려진 사진인 result 폴더가 생성된다/
+이후 글자가 잘려진 사진인 result 폴더가 생성된다.
 
 ### TRBA 모델로 최종 예측
 
